@@ -72,19 +72,6 @@ while True:
         
         
     
-    
-       
-
-    
-    
-
-    
-    """ if ball.ycor()<-250 or :
-        
-        cor = random.randint(-300,300)
-        ball.setx(cor)
-        ball.sety(300)"""
-      
     #print(paddle.ycor(),paddle.xcor())
     if (ball.dy<0 and ball.ycor()<=-185 and ball.ycor()>=-200) and(paddle.xcor()-10 <= ball.xcor() <= paddle.xcor()+10):
         ball.dy*=-1
@@ -92,8 +79,7 @@ while True:
         score =score+1
         print("score:",score)
     
-        print(ball.ycor(),ball.xcor())
-        print(paddle.ycor(),paddle.xcor())
+       
    
 
        
